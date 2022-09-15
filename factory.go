@@ -43,5 +43,5 @@ func NewFactory() component.ReceiverFactory {
 	return component.NewReceiverFactory(
 		typeStr,
 		createDefaultConfig,
-		component.WithTracesReceiver(createTracesReceiver))
+		component.WithTracesReceiver(createTracesReceiver, component.StabilityLevelAlpha))
 }
