@@ -1,6 +1,7 @@
 package tailtracer
 
 import (
+  "time"
   "fmt"
   "go.opentelemetry.io/collector/config"
 )

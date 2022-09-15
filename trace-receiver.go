@@ -6,6 +6,7 @@ import (
 	"go.opentelemetry.io/collector/consumer"
 	"go.uber.org/zap"
 
+    "time"
 )
 
 type tailtracerReceiver struct {
